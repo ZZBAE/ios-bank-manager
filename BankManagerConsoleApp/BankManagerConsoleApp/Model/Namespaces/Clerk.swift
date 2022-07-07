@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Clerk {
+enum Clerk {
     static func provideService(_ client: Customer) {
         let business = client.business
         
